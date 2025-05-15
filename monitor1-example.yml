@@ -1,0 +1,45 @@
+
+essentials:
+  #Opensurv will rotate over the following screens in the order they are configured here, if you only define one screen no rotation will happen
+
+  #If you enable this option no auto rotation will happen, but you will still be able to select a screen by pressing and holding a Function Key (F1-F12) or numpad keys
+  #Defaults to False
+  #disable_autorotation: False
+
+  screens:
+#      #######################################################################################################
+#      # Below config is included for demo and test purposes
+#      # After installation you can start Opensurv and the demo should be started
+#      #######################################################################################################
+    - streams:
+        - url: "rtsp://Admin:[PW]@--CAMERA-URL--.camera.verkada-lan.com:8554/high"
+        - url: "rtsp://Admin:[PW]@--CAMERA-URL--.camera.verkada-lan.com:8554/high"
+        - url: "rtsp://Admin:[PW]@--CAMERA-URL--.camera.verkada-lan.com:8554/high"
+        - url: "rtsp://Admin:[PW]@--CAMERA-URL--.camera.verkada-lan.com:8554/high"
+        - url: "rtsp://Admin:[PW]@--CAMERA-URL--.camera.verkada-lan.com:8554/high"
+        - url: "rtsp://Admin:[PW]@--CAMERA-URL--.camera.verkada-lan.com:8554/high"
+      duration: 30
+      nr_of_columns: 3
+    - streams:
+        - url: "rtsp://Admin:[PW]@--CAMERA-URL--.camera.verkada-lan.com:8554/high"
+        - url: "rtsp://Admin:[PW]@--CAMERA-URL--.camera.verkada-lan.com:8554/high"
+        - url: "rtsp://Admin:[PW]@--CAMERA-URL--.camera.verkada-lan.com:8554/high"
+        - url: "rtsp://Admin:[PW]@--CAMERA-URL--.camera.verkada-lan.com:8554/high"
+        - url: "rtsp://Admin:[PW]@--CAMERA-URL--.camera.verkada-lan.com:8554/high"
+        - url: "rtsp://Admin:[PW]@--CAMERA-URL--.camera.verkada-lan.com:8554/high"
+      duration: 30
+      nr_of_columns: 3
+    - streams:
+        - url: "rtsp://Admin:[PW]@--CAMERA-URL--.camera.verkada-lan.com:8554/high"
+        - url: "rtsp://Admin:[PW]@--CAMERA-URL--.camera.verkada-lan.com:8554/high"
+        - url: "rtsp://Admin:[PW]@--CAMERA-URL--.camera.verkada-lan.com:8554/high"
+        - url: "rtsp://Admin:[PW]@--CAMERA-URL--.camera.verkada-lan.com:8554/high"
+      duration: 20
+      nr_of_columns: 2
+    - streams:
+        - url: "rtsp://Admin:[PW]@--CAMERA-URL--.camera.verkada-lan.com:8554/high"
+        - url: "rtsp://Admin:[PW]@--CAMERA-URL--.camera.verkada-lan.com:8554/high"
+        - url: "rtsp://Admin:[PW]@--CAMERA-URL--.camera.verkada-lan.com:8554/high"
+        - url: "rtsp://Admin:[PW]@--CAMERA-URL--.camera.verkada-lan.com:8554/high"
+      duration: 20
+      nr_of_columns: 2
